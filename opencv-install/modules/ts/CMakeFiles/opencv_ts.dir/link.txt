@@ -1,0 +1,2 @@
+C:\MinGW-64\mingw64\bin\ar.exe qc ..\..\lib\libopencv_ts2410.a  CMakeFiles/opencv_ts.dir/src/gpu_perf.cpp.obj CMakeFiles/opencv_ts.dir/src/gpu_test.cpp.obj CMakeFiles/opencv_ts.dir/src/ts.cpp.obj CMakeFiles/opencv_ts.dir/src/ts_arrtest.cpp.obj CMakeFiles/opencv_ts.dir/src/ts_func.cpp.obj CMakeFiles/opencv_ts.dir/src/ts_gtest.cpp.obj CMakeFiles/opencv_ts.dir/src/ts_perf.cpp.obj
+C:\MinGW-64\mingw64\bin\ranlib.exe ..\..\lib\libopencv_ts2410.a

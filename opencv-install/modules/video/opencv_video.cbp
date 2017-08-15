@@ -1,0 +1,982 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="opencv_video" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\cmake\checks\;CMake Files\cmake\templates\;CMake Files\modules\;CMake Files\modules\core\;CMake Files\modules\core\include\;CMake Files\modules\core\include\opencv2\;CMake Files\modules\core\include\opencv2\core\;CMake Files\modules\androidcamera\;CMake Files\modules\calib3d\;CMake Files\modules\contrib\;CMake Files\modules\dynamicuda\;CMake Files\modules\features2d\;CMake Files\modules\flann\;CMake Files\modules\gpu\;CMake Files\modules\highgui\;CMake Files\modules\imgproc\;CMake Files\modules\java\;CMake Files\modules\legacy\;CMake Files\modules\ml\;CMake Files\modules\nonfree\;CMake Files\modules\objdetect\;CMake Files\modules\ocl\;CMake Files\modules\photo\;CMake Files\modules\python\;CMake Files\modules\stitching\;CMake Files\modules\superres\;CMake Files\modules\ts\;CMake Files\modules\video\;CMake Files\modules\videostab\;CMake Files\modules\viz\;CMake Files\modules\world\;CMake Files\3rdparty\;CMake Files\3rdparty\ffmpeg\;CMake Files\3rdparty\zlib\;CMake Files\3rdparty\libtiff\;CMake Files\3rdparty\libjpeg\;CMake Files\3rdparty\libjasper\;CMake Files\3rdparty\libpng\;CMake Files\3rdparty\openexr\;CMake Files\include\;CMake Files\doc\;CMake Files\data\;CMake Files\apps\;CMake Files\apps\haartraining\;CMake Files\apps\traincascade\;CMake Files\samples\;CMake Files\samples\c\;CMake Files\samples\cpp\;CMake Files\samples\gpu\;CMake Files\samples\gpu\performance\;CMake Files\samples\ocl\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="C:/opencv-install/modules/video" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/MinGW-64/mingw64/bin/mingw32-make.exe -f &quot;C:/opencv-install/modules/video/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="C:/MinGW-64/mingw64/bin/mingw32-make.exe -f &quot;C:/opencv-install/modules/video/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/MinGW-64/mingw64/bin/mingw32-make.exe -f &quot;C:/opencv-install/modules/video/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/MinGW-64/mingw64/bin/mingw32-make.exe -f &quot;C:/opencv-install/modules/video/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="opencv_test_video_pch_dephelp">
+         <Option output="C:/opencv-install/lib/libopencv_test_video_pch_dephelp.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="C:/opencv-install/modules/video" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="C:/MinGW-64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include" />
+            <Add directory="C:/MinGW-64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include" />
+            <Add directory="C:/MinGW-64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed" />
+            <Add directory="C:/MinGW-64/mingw64/lib/gcc/../../x86_64-w64-mingw32/include/c++" />
+            <Add directory="C:/MinGW-64/mingw64/lib/gcc/../../x86_64-w64-mingw32/include/c++/backward" />
+            <Add directory="C:/MinGW-64/mingw64/lib/gcc/../../x86_64-w64-mingw32/include/c++/x86_64-w64-mingw32" />
+            <Add directory="C:/opencv-install" />
+            <Add directory="C:/opencv-install/modules/video" />
+            <Add directory="C:/opencv/sources/modules/core/include" />
+            <Add directory="C:/opencv/sources/modules/features2d/include" />
+            <Add directory="C:/opencv/sources/modules/flann/include" />
+            <Add directory="C:/opencv/sources/modules/highgui/include" />
+            <Add directory="C:/opencv/sources/modules/imgproc/include" />
+            <Add directory="C:/opencv/sources/modules/ts/include" />
+            <Add directory="C:/opencv/sources/modules/video/include" />
+            <Add directory="C:/opencv/sources/modules/video/perf" />
+            <Add directory="C:/opencv/sources/modules/video/src" />
+            <Add directory="C:/opencv/sources/modules/video/test" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/MinGW-64/mingw64/bin/mingw32-make.exe -f &quot;C:/opencv-install/modules/video/Makefile&quot;  VERBOSE=1 opencv_test_video_pch_dephelp" />
+            <CompileFile command="C:/MinGW-64/mingw64/bin/mingw32-make.exe -f &quot;C:/opencv-install/modules/video/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/MinGW-64/mingw64/bin/mingw32-make.exe -f &quot;C:/opencv-install/modules/video/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/MinGW-64/mingw64/bin/mingw32-make.exe -f &quot;C:/opencv-install/modules/video/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="opencv_test_video_pch_dephelp/fast">
+         <Option output="C:/opencv-install/lib/libopencv_test_video_pch_dephelp.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="C:/opencv-install/modules/video" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="C:/MinGW-64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include" />
+            <Add directory="C:/MinGW-64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include" />
+            <Add directory="C:/MinGW-64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed" />
+            <Add directory="C:/MinGW-64/mingw64/lib/gcc/../../x86_64-w64-mingw32/include/c++" />
+            <Add directory="C:/MinGW-64/mingw64/lib/gcc/../../x86_64-w64-mingw32/include/c++/backward" />
+            <Add directory="C:/MinGW-64/mingw64/lib/gcc/../../x86_64-w64-mingw32/include/c++/x86_64-w64-mingw32" />
+            <Add directory="C:/opencv-install" />
+            <Add directory="C:/opencv-install/modules/video" />
+            <Add directory="C:/opencv/sources/modules/core/include" />
+            <Add directory="C:/opencv/sources/modules/features2d/include" />
+            <Add directory="C:/opencv/sources/modules/flann/include" />
+            <Add directory="C:/opencv/sources/modules/highgui/include" />
+            <Add directory="C:/opencv/sources/modules/imgproc/include" />
+            <Add directory="C:/opencv/sources/modules/ts/include" />
+            <Add directory="C:/opencv/sources/modules/video/include" />
+            <Add directory="C:/opencv/sources/modules/video/perf" />
+            <Add directory="C:/opencv/sources/modules/video/src" />
+            <Add directory="C:/opencv/sources/modules/video/test" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/MinGW-64/mingw64/bin/mingw32-make.exe -f &quot;C:/opencv-install/modules/video/Makefile&quot;  VERBOSE=1 opencv_test_video_pch_dephelp/fast" />
+            <CompileFile command="C:/MinGW-64/mingw64/bin/mingw32-make.exe -f &quot;C:/opencv-install/modules/video/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/MinGW-64/mingw64/bin/mingw32-make.exe -f &quot;C:/opencv-install/modules/video/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/MinGW-64/mingw64/bin/mingw32-make.exe -f &quot;C:/opencv-install/modules/video/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="opencv_video">
+         <Option output="C:/opencv-install/bin/libopencv_video2410.dll" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="C:/opencv-install/modules/video" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="C:/MinGW-64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include" />
+            <Add directory="C:/MinGW-64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include" />
+            <Add directory="C:/MinGW-64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed" />
+            <Add directory="C:/MinGW-64/mingw64/lib/gcc/../../x86_64-w64-mingw32/include/c++" />
+            <Add directory="C:/MinGW-64/mingw64/lib/gcc/../../x86_64-w64-mingw32/include/c++/backward" />
+            <Add directory="C:/MinGW-64/mingw64/lib/gcc/../../x86_64-w64-mingw32/include/c++/x86_64-w64-mingw32" />
+            <Add directory="C:/opencv-install" />
+            <Add directory="C:/opencv-install/modules/video" />
+            <Add directory="C:/opencv/sources/modules/core/include" />
+            <Add directory="C:/opencv/sources/modules/features2d/include" />
+            <Add directory="C:/opencv/sources/modules/flann/include" />
+            <Add directory="C:/opencv/sources/modules/highgui/include" />
+            <Add directory="C:/opencv/sources/modules/imgproc/include" />
+            <Add directory="C:/opencv/sources/modules/ts/include" />
+            <Add directory="C:/opencv/sources/modules/video/include" />
+            <Add directory="C:/opencv/sources/modules/video/perf" />
+            <Add directory="C:/opencv/sources/modules/video/src" />
+            <Add directory="C:/opencv/sources/modules/video/test" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/MinGW-64/mingw64/bin/mingw32-make.exe -f &quot;C:/opencv-install/modules/video/Makefile&quot;  VERBOSE=1 opencv_video" />
+            <CompileFile command="C:/MinGW-64/mingw64/bin/mingw32-make.exe -f &quot;C:/opencv-install/modules/video/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/MinGW-64/mingw64/bin/mingw32-make.exe -f &quot;C:/opencv-install/modules/video/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/MinGW-64/mingw64/bin/mingw32-make.exe -f &quot;C:/opencv-install/modules/video/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="opencv_video/fast">
+         <Option output="C:/opencv-install/bin/libopencv_video2410.dll" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="C:/opencv-install/modules/video" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="C:/MinGW-64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include" />
+            <Add directory="C:/MinGW-64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include" />
+            <Add directory="C:/MinGW-64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed" />
+            <Add directory="C:/MinGW-64/mingw64/lib/gcc/../../x86_64-w64-mingw32/include/c++" />
+            <Add directory="C:/MinGW-64/mingw64/lib/gcc/../../x86_64-w64-mingw32/include/c++/backward" />
+            <Add directory="C:/MinGW-64/mingw64/lib/gcc/../../x86_64-w64-mingw32/include/c++/x86_64-w64-mingw32" />
+            <Add directory="C:/opencv-install" />
+            <Add directory="C:/opencv-install/modules/video" />
+            <Add directory="C:/opencv/sources/modules/core/include" />
+            <Add directory="C:/opencv/sources/modules/features2d/include" />
+            <Add directory="C:/opencv/sources/modules/flann/include" />
+            <Add directory="C:/opencv/sources/modules/highgui/include" />
+            <Add directory="C:/opencv/sources/modules/imgproc/include" />
+            <Add directory="C:/opencv/sources/modules/ts/include" />
+            <Add directory="C:/opencv/sources/modules/video/include" />
+            <Add directory="C:/opencv/sources/modules/video/perf" />
+            <Add directory="C:/opencv/sources/modules/video/src" />
+            <Add directory="C:/opencv/sources/modules/video/test" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/MinGW-64/mingw64/bin/mingw32-make.exe -f &quot;C:/opencv-install/modules/video/Makefile&quot;  VERBOSE=1 opencv_video/fast" />
+            <CompileFile command="C:/MinGW-64/mingw64/bin/mingw32-make.exe -f &quot;C:/opencv-install/modules/video/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/MinGW-64/mingw64/bin/mingw32-make.exe -f &quot;C:/opencv-install/modules/video/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/MinGW-64/mingw64/bin/mingw32-make.exe -f &quot;C:/opencv-install/modules/video/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="opencv_video_pch_dephelp">
+         <Option output="C:/opencv-install/lib/libopencv_video_pch_dephelp.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="C:/opencv-install/modules/video" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="C:/MinGW-64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include" />
+            <Add directory="C:/MinGW-64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include" />
+            <Add directory="C:/MinGW-64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed" />
+            <Add directory="C:/MinGW-64/mingw64/lib/gcc/../../x86_64-w64-mingw32/include/c++" />
+            <Add directory="C:/MinGW-64/mingw64/lib/gcc/../../x86_64-w64-mingw32/include/c++/backward" />
+            <Add directory="C:/MinGW-64/mingw64/lib/gcc/../../x86_64-w64-mingw32/include/c++/x86_64-w64-mingw32" />
+            <Add directory="C:/opencv-install" />
+            <Add directory="C:/opencv-install/modules/video" />
+            <Add directory="C:/opencv/sources/modules/core/include" />
+            <Add directory="C:/opencv/sources/modules/features2d/include" />
+            <Add directory="C:/opencv/sources/modules/flann/include" />
+            <Add directory="C:/opencv/sources/modules/highgui/include" />
+            <Add directory="C:/opencv/sources/modules/imgproc/include" />
+            <Add directory="C:/opencv/sources/modules/ts/include" />
+            <Add directory="C:/opencv/sources/modules/video/include" />
+            <Add directory="C:/opencv/sources/modules/video/perf" />
+            <Add directory="C:/opencv/sources/modules/video/src" />
+            <Add directory="C:/opencv/sources/modules/video/test" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/MinGW-64/mingw64/bin/mingw32-make.exe -f &quot;C:/opencv-install/modules/video/Makefile&quot;  VERBOSE=1 opencv_video_pch_dephelp" />
+            <CompileFile command="C:/MinGW-64/mingw64/bin/mingw32-make.exe -f &quot;C:/opencv-install/modules/video/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/MinGW-64/mingw64/bin/mingw32-make.exe -f &quot;C:/opencv-install/modules/video/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/MinGW-64/mingw64/bin/mingw32-make.exe -f &quot;C:/opencv-install/modules/video/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="opencv_video_pch_dephelp/fast">
+         <Option output="C:/opencv-install/lib/libopencv_video_pch_dephelp.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="C:/opencv-install/modules/video" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="C:/MinGW-64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include" />
+            <Add directory="C:/MinGW-64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include" />
+            <Add directory="C:/MinGW-64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed" />
+            <Add directory="C:/MinGW-64/mingw64/lib/gcc/../../x86_64-w64-mingw32/include/c++" />
+            <Add directory="C:/MinGW-64/mingw64/lib/gcc/../../x86_64-w64-mingw32/include/c++/backward" />
+            <Add directory="C:/MinGW-64/mingw64/lib/gcc/../../x86_64-w64-mingw32/include/c++/x86_64-w64-mingw32" />
+            <Add directory="C:/opencv-install" />
+            <Add directory="C:/opencv-install/modules/video" />
+            <Add directory="C:/opencv/sources/modules/core/include" />
+            <Add directory="C:/opencv/sources/modules/features2d/include" />
+            <Add directory="C:/opencv/sources/modules/flann/include" />
+            <Add directory="C:/opencv/sources/modules/highgui/include" />
+            <Add directory="C:/opencv/sources/modules/imgproc/include" />
+            <Add directory="C:/opencv/sources/modules/ts/include" />
+            <Add directory="C:/opencv/sources/modules/video/include" />
+            <Add directory="C:/opencv/sources/modules/video/perf" />
+            <Add directory="C:/opencv/sources/modules/video/src" />
+            <Add directory="C:/opencv/sources/modules/video/test" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/MinGW-64/mingw64/bin/mingw32-make.exe -f &quot;C:/opencv-install/modules/video/Makefile&quot;  VERBOSE=1 opencv_video_pch_dephelp/fast" />
+            <CompileFile command="C:/MinGW-64/mingw64/bin/mingw32-make.exe -f &quot;C:/opencv-install/modules/video/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/MinGW-64/mingw64/bin/mingw32-make.exe -f &quot;C:/opencv-install/modules/video/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/MinGW-64/mingw64/bin/mingw32-make.exe -f &quot;C:/opencv-install/modules/video/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="pch_Generate_opencv_video">
+         <Option working_dir="C:/opencv-install/modules/video" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/MinGW-64/mingw64/bin/mingw32-make.exe -f &quot;C:/opencv-install/modules/video/Makefile&quot;  VERBOSE=1 pch_Generate_opencv_video" />
+            <CompileFile command="C:/MinGW-64/mingw64/bin/mingw32-make.exe -f &quot;C:/opencv-install/modules/video/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/MinGW-64/mingw64/bin/mingw32-make.exe -f &quot;C:/opencv-install/modules/video/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/MinGW-64/mingw64/bin/mingw32-make.exe -f &quot;C:/opencv-install/modules/video/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="opencv_perf_video">
+         <Option output="C:/opencv-install/bin/opencv_perf_video.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="C:/opencv-install/bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="C:/MinGW-64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include" />
+            <Add directory="C:/MinGW-64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include" />
+            <Add directory="C:/MinGW-64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed" />
+            <Add directory="C:/MinGW-64/mingw64/lib/gcc/../../x86_64-w64-mingw32/include/c++" />
+            <Add directory="C:/MinGW-64/mingw64/lib/gcc/../../x86_64-w64-mingw32/include/c++/backward" />
+            <Add directory="C:/MinGW-64/mingw64/lib/gcc/../../x86_64-w64-mingw32/include/c++/x86_64-w64-mingw32" />
+            <Add directory="C:/opencv-install" />
+            <Add directory="C:/opencv-install/modules/video" />
+            <Add directory="C:/opencv/sources/modules/core/include" />
+            <Add directory="C:/opencv/sources/modules/features2d/include" />
+            <Add directory="C:/opencv/sources/modules/flann/include" />
+            <Add directory="C:/opencv/sources/modules/highgui/include" />
+            <Add directory="C:/opencv/sources/modules/imgproc/include" />
+            <Add directory="C:/opencv/sources/modules/ts/include" />
+            <Add directory="C:/opencv/sources/modules/video/include" />
+            <Add directory="C:/opencv/sources/modules/video/perf" />
+            <Add directory="C:/opencv/sources/modules/video/src" />
+            <Add directory="C:/opencv/sources/modules/video/test" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/MinGW-64/mingw64/bin/mingw32-make.exe -f &quot;C:/opencv-install/modules/video/Makefile&quot;  VERBOSE=1 opencv_perf_video" />
+            <CompileFile command="C:/MinGW-64/mingw64/bin/mingw32-make.exe -f &quot;C:/opencv-install/modules/video/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/MinGW-64/mingw64/bin/mingw32-make.exe -f &quot;C:/opencv-install/modules/video/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/MinGW-64/mingw64/bin/mingw32-make.exe -f &quot;C:/opencv-install/modules/video/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="opencv_perf_video/fast">
+         <Option output="C:/opencv-install/bin/opencv_perf_video.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="C:/opencv-install/bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="C:/MinGW-64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include" />
+            <Add directory="C:/MinGW-64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include" />
+            <Add directory="C:/MinGW-64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed" />
+            <Add directory="C:/MinGW-64/mingw64/lib/gcc/../../x86_64-w64-mingw32/include/c++" />
+            <Add directory="C:/MinGW-64/mingw64/lib/gcc/../../x86_64-w64-mingw32/include/c++/backward" />
+            <Add directory="C:/MinGW-64/mingw64/lib/gcc/../../x86_64-w64-mingw32/include/c++/x86_64-w64-mingw32" />
+            <Add directory="C:/opencv-install" />
+            <Add directory="C:/opencv-install/modules/video" />
+            <Add directory="C:/opencv/sources/modules/core/include" />
+            <Add directory="C:/opencv/sources/modules/features2d/include" />
+            <Add directory="C:/opencv/sources/modules/flann/include" />
+            <Add directory="C:/opencv/sources/modules/highgui/include" />
+            <Add directory="C:/opencv/sources/modules/imgproc/include" />
+            <Add directory="C:/opencv/sources/modules/ts/include" />
+            <Add directory="C:/opencv/sources/modules/video/include" />
+            <Add directory="C:/opencv/sources/modules/video/perf" />
+            <Add directory="C:/opencv/sources/modules/video/src" />
+            <Add directory="C:/opencv/sources/modules/video/test" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/MinGW-64/mingw64/bin/mingw32-make.exe -f &quot;C:/opencv-install/modules/video/Makefile&quot;  VERBOSE=1 opencv_perf_video/fast" />
+            <CompileFile command="C:/MinGW-64/mingw64/bin/mingw32-make.exe -f &quot;C:/opencv-install/modules/video/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/MinGW-64/mingw64/bin/mingw32-make.exe -f &quot;C:/opencv-install/modules/video/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/MinGW-64/mingw64/bin/mingw32-make.exe -f &quot;C:/opencv-install/modules/video/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="opencv_test_video">
+         <Option output="C:/opencv-install/bin/opencv_test_video.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="C:/opencv-install/bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="C:/MinGW-64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include" />
+            <Add directory="C:/MinGW-64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include" />
+            <Add directory="C:/MinGW-64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed" />
+            <Add directory="C:/MinGW-64/mingw64/lib/gcc/../../x86_64-w64-mingw32/include/c++" />
+            <Add directory="C:/MinGW-64/mingw64/lib/gcc/../../x86_64-w64-mingw32/include/c++/backward" />
+            <Add directory="C:/MinGW-64/mingw64/lib/gcc/../../x86_64-w64-mingw32/include/c++/x86_64-w64-mingw32" />
+            <Add directory="C:/opencv-install" />
+            <Add directory="C:/opencv-install/modules/video" />
+            <Add directory="C:/opencv/sources/modules/core/include" />
+            <Add directory="C:/opencv/sources/modules/features2d/include" />
+            <Add directory="C:/opencv/sources/modules/flann/include" />
+            <Add directory="C:/opencv/sources/modules/highgui/include" />
+            <Add directory="C:/opencv/sources/modules/imgproc/include" />
+            <Add directory="C:/opencv/sources/modules/ts/include" />
+            <Add directory="C:/opencv/sources/modules/video/include" />
+            <Add directory="C:/opencv/sources/modules/video/perf" />
+            <Add directory="C:/opencv/sources/modules/video/src" />
+            <Add directory="C:/opencv/sources/modules/video/test" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/MinGW-64/mingw64/bin/mingw32-make.exe -f &quot;C:/opencv-install/modules/video/Makefile&quot;  VERBOSE=1 opencv_test_video" />
+            <CompileFile command="C:/MinGW-64/mingw64/bin/mingw32-make.exe -f &quot;C:/opencv-install/modules/video/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/MinGW-64/mingw64/bin/mingw32-make.exe -f &quot;C:/opencv-install/modules/video/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/MinGW-64/mingw64/bin/mingw32-make.exe -f &quot;C:/opencv-install/modules/video/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="opencv_test_video/fast">
+         <Option output="C:/opencv-install/bin/opencv_test_video.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="C:/opencv-install/bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="C:/MinGW-64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include" />
+            <Add directory="C:/MinGW-64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include" />
+            <Add directory="C:/MinGW-64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed" />
+            <Add directory="C:/MinGW-64/mingw64/lib/gcc/../../x86_64-w64-mingw32/include/c++" />
+            <Add directory="C:/MinGW-64/mingw64/lib/gcc/../../x86_64-w64-mingw32/include/c++/backward" />
+            <Add directory="C:/MinGW-64/mingw64/lib/gcc/../../x86_64-w64-mingw32/include/c++/x86_64-w64-mingw32" />
+            <Add directory="C:/opencv-install" />
+            <Add directory="C:/opencv-install/modules/video" />
+            <Add directory="C:/opencv/sources/modules/core/include" />
+            <Add directory="C:/opencv/sources/modules/features2d/include" />
+            <Add directory="C:/opencv/sources/modules/flann/include" />
+            <Add directory="C:/opencv/sources/modules/highgui/include" />
+            <Add directory="C:/opencv/sources/modules/imgproc/include" />
+            <Add directory="C:/opencv/sources/modules/ts/include" />
+            <Add directory="C:/opencv/sources/modules/video/include" />
+            <Add directory="C:/opencv/sources/modules/video/perf" />
+            <Add directory="C:/opencv/sources/modules/video/src" />
+            <Add directory="C:/opencv/sources/modules/video/test" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/MinGW-64/mingw64/bin/mingw32-make.exe -f &quot;C:/opencv-install/modules/video/Makefile&quot;  VERBOSE=1 opencv_test_video/fast" />
+            <CompileFile command="C:/MinGW-64/mingw64/bin/mingw32-make.exe -f &quot;C:/opencv-install/modules/video/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/MinGW-64/mingw64/bin/mingw32-make.exe -f &quot;C:/opencv-install/modules/video/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/MinGW-64/mingw64/bin/mingw32-make.exe -f &quot;C:/opencv-install/modules/video/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="pch_Generate_opencv_test_video">
+         <Option working_dir="C:/opencv-install/modules/video" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/MinGW-64/mingw64/bin/mingw32-make.exe -f &quot;C:/opencv-install/modules/video/Makefile&quot;  VERBOSE=1 pch_Generate_opencv_test_video" />
+            <CompileFile command="C:/MinGW-64/mingw64/bin/mingw32-make.exe -f &quot;C:/opencv-install/modules/video/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/MinGW-64/mingw64/bin/mingw32-make.exe -f &quot;C:/opencv-install/modules/video/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/MinGW-64/mingw64/bin/mingw32-make.exe -f &quot;C:/opencv-install/modules/video/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="opencv_perf_video_pch_dephelp">
+         <Option output="C:/opencv-install/lib/libopencv_perf_video_pch_dephelp.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="C:/opencv-install/modules/video" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="C:/MinGW-64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include" />
+            <Add directory="C:/MinGW-64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include" />
+            <Add directory="C:/MinGW-64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed" />
+            <Add directory="C:/MinGW-64/mingw64/lib/gcc/../../x86_64-w64-mingw32/include/c++" />
+            <Add directory="C:/MinGW-64/mingw64/lib/gcc/../../x86_64-w64-mingw32/include/c++/backward" />
+            <Add directory="C:/MinGW-64/mingw64/lib/gcc/../../x86_64-w64-mingw32/include/c++/x86_64-w64-mingw32" />
+            <Add directory="C:/opencv-install" />
+            <Add directory="C:/opencv-install/modules/video" />
+            <Add directory="C:/opencv/sources/modules/core/include" />
+            <Add directory="C:/opencv/sources/modules/features2d/include" />
+            <Add directory="C:/opencv/sources/modules/flann/include" />
+            <Add directory="C:/opencv/sources/modules/highgui/include" />
+            <Add directory="C:/opencv/sources/modules/imgproc/include" />
+            <Add directory="C:/opencv/sources/modules/ts/include" />
+            <Add directory="C:/opencv/sources/modules/video/include" />
+            <Add directory="C:/opencv/sources/modules/video/perf" />
+            <Add directory="C:/opencv/sources/modules/video/src" />
+            <Add directory="C:/opencv/sources/modules/video/test" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/MinGW-64/mingw64/bin/mingw32-make.exe -f &quot;C:/opencv-install/modules/video/Makefile&quot;  VERBOSE=1 opencv_perf_video_pch_dephelp" />
+            <CompileFile command="C:/MinGW-64/mingw64/bin/mingw32-make.exe -f &quot;C:/opencv-install/modules/video/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/MinGW-64/mingw64/bin/mingw32-make.exe -f &quot;C:/opencv-install/modules/video/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/MinGW-64/mingw64/bin/mingw32-make.exe -f &quot;C:/opencv-install/modules/video/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="opencv_perf_video_pch_dephelp/fast">
+         <Option output="C:/opencv-install/lib/libopencv_perf_video_pch_dephelp.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="C:/opencv-install/modules/video" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="C:/MinGW-64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include" />
+            <Add directory="C:/MinGW-64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include" />
+            <Add directory="C:/MinGW-64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed" />
+            <Add directory="C:/MinGW-64/mingw64/lib/gcc/../../x86_64-w64-mingw32/include/c++" />
+            <Add directory="C:/MinGW-64/mingw64/lib/gcc/../../x86_64-w64-mingw32/include/c++/backward" />
+            <Add directory="C:/MinGW-64/mingw64/lib/gcc/../../x86_64-w64-mingw32/include/c++/x86_64-w64-mingw32" />
+            <Add directory="C:/opencv-install" />
+            <Add directory="C:/opencv-install/modules/video" />
+            <Add directory="C:/opencv/sources/modules/core/include" />
+            <Add directory="C:/opencv/sources/modules/features2d/include" />
+            <Add directory="C:/opencv/sources/modules/flann/include" />
+            <Add directory="C:/opencv/sources/modules/highgui/include" />
+            <Add directory="C:/opencv/sources/modules/imgproc/include" />
+            <Add directory="C:/opencv/sources/modules/ts/include" />
+            <Add directory="C:/opencv/sources/modules/video/include" />
+            <Add directory="C:/opencv/sources/modules/video/perf" />
+            <Add directory="C:/opencv/sources/modules/video/src" />
+            <Add directory="C:/opencv/sources/modules/video/test" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/MinGW-64/mingw64/bin/mingw32-make.exe -f &quot;C:/opencv-install/modules/video/Makefile&quot;  VERBOSE=1 opencv_perf_video_pch_dephelp/fast" />
+            <CompileFile command="C:/MinGW-64/mingw64/bin/mingw32-make.exe -f &quot;C:/opencv-install/modules/video/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/MinGW-64/mingw64/bin/mingw32-make.exe -f &quot;C:/opencv-install/modules/video/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/MinGW-64/mingw64/bin/mingw32-make.exe -f &quot;C:/opencv-install/modules/video/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="pch_Generate_opencv_perf_video">
+         <Option working_dir="C:/opencv-install/modules/video" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/MinGW-64/mingw64/bin/mingw32-make.exe -f &quot;C:/opencv-install/modules/video/Makefile&quot;  VERBOSE=1 pch_Generate_opencv_perf_video" />
+            <CompileFile command="C:/MinGW-64/mingw64/bin/mingw32-make.exe -f &quot;C:/opencv-install/modules/video/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/MinGW-64/mingw64/bin/mingw32-make.exe -f &quot;C:/opencv-install/modules/video/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/MinGW-64/mingw64/bin/mingw32-make.exe -f &quot;C:/opencv-install/modules/video/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="C:/opencv-install/cvconfig.h">
+         <Option target="opencv_video"/>
+      </Unit>
+      <Unit filename="C:/opencv-install/opencv2/opencv_modules.hpp">
+         <Option target="opencv_video"/>
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/video/include/opencv2/video/background_segm.hpp">
+         <Option target="opencv_video"/>
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/video/include/opencv2/video/tracking.hpp">
+         <Option target="opencv_video"/>
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/video/include/opencv2/video/video.hpp">
+         <Option target="opencv_video"/>
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/video/perf/perf_main.cpp">
+         <Option target="opencv_perf_video"/>
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/video/perf/perf_optflowpyrlk.cpp">
+         <Option target="opencv_perf_video"/>
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/video/perf/perf_precomp.hpp">
+         <Option target="opencv_perf_video"/>
+         <Option target="opencv_perf_video_pch_dephelp"/>
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/video/perf/perf_tvl1optflow.cpp">
+         <Option target="opencv_perf_video"/>
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/video/src/bgfg_gaussmix.cpp">
+         <Option target="opencv_video"/>
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/video/src/bgfg_gaussmix2.cpp">
+         <Option target="opencv_video"/>
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/video/src/bgfg_gmg.cpp">
+         <Option target="opencv_video"/>
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/video/src/camshift.cpp">
+         <Option target="opencv_video"/>
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/video/src/kalman.cpp">
+         <Option target="opencv_video"/>
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/video/src/lkpyramid.cpp">
+         <Option target="opencv_video"/>
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/video/src/lkpyramid.hpp">
+         <Option target="opencv_video"/>
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/video/src/motempl.cpp">
+         <Option target="opencv_video"/>
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/video/src/optflowgf.cpp">
+         <Option target="opencv_video"/>
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/video/src/precomp.hpp">
+         <Option target="opencv_video"/>
+         <Option target="opencv_video_pch_dephelp"/>
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/video/src/simpleflow.cpp">
+         <Option target="opencv_video"/>
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/video/src/simpleflow.hpp">
+         <Option target="opencv_video"/>
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/video/src/tvl1flow.cpp">
+         <Option target="opencv_video"/>
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/video/src/video_init.cpp">
+         <Option target="opencv_video"/>
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/video/test/test_accum.cpp">
+         <Option target="opencv_test_video"/>
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/video/test/test_backgroundsubtractor_gbh.cpp">
+         <Option target="opencv_test_video"/>
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/video/test/test_camshift.cpp">
+         <Option target="opencv_test_video"/>
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/video/test/test_estimaterigid.cpp">
+         <Option target="opencv_test_video"/>
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/video/test/test_kalman.cpp">
+         <Option target="opencv_test_video"/>
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/video/test/test_main.cpp">
+         <Option target="opencv_test_video"/>
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/video/test/test_motiontemplates.cpp">
+         <Option target="opencv_test_video"/>
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/video/test/test_optflowpyrlk.cpp">
+         <Option target="opencv_test_video"/>
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/video/test/test_precomp.hpp">
+         <Option target="opencv_test_video_pch_dephelp"/>
+         <Option target="opencv_test_video"/>
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/video/test/test_simpleflow.cpp">
+         <Option target="opencv_test_video"/>
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/video/test/test_tvl1optflow.cpp">
+         <Option target="opencv_test_video"/>
+      </Unit>
+      <Unit filename="C:/opencv/sources/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/cmake/OpenCVUtils.cmake">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/cmake/OpenCVDetectCXXCompiler.cmake">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/cmake/OpenCVLegacyOptions.cmake">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/cmake/OpenCVVersion.cmake">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/cmake/OpenCVCompilerOptions.cmake">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/cmake/OpenCVPCHSupport.cmake">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/cmake/OpenCVModule.cmake">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/cmake/OpenCVFindLibsGrfmt.cmake">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/cmake/OpenCVFindLibsGUI.cmake">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/cmake/OpenCVFindLibsVideo.cmake">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/cmake/OpenCVFindLibsPerf.cmake">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/cmake/OpenCVDetectCUDA.cmake">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/cmake/OpenCVFindLATEX.cmake">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/cmake/OpenCVDetectPython.cmake">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/cmake/OpenCVDetectApacheAnt.cmake">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/cmake/OpenCVDetectOpenCL.cmake">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/cmake/OpenCVDetectVTK.cmake">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/cmake/OpenCVExtraTargets.cmake">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/cmake/OpenCVGenHeaders.cmake">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/cmake/OpenCVGenPkgconfig.cmake">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/cmake/OpenCVGenAndroidMK.cmake">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/cmake/OpenCVGenConfig.cmake">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/cmake/OpenCVGenInfoPlist.cmake">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/cmake/OpenCVPackaging.cmake">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/cmake/checks/win32uitest.cpp">
+          <Option virtualFolder="CMake Files\cmake\checks\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/cmake/checks/vfwtest.cpp">
+          <Option virtualFolder="CMake Files\cmake\checks\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/cmake/checks/opencl.cpp">
+          <Option virtualFolder="CMake Files\cmake\checks\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/cmake/templates/cmake_uninstall.cmake.in">
+          <Option virtualFolder="CMake Files\cmake\templates\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/cmake/templates/cvconfig.h.in">
+          <Option virtualFolder="CMake Files\cmake\templates\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/cmake/templates/opencv_modules.hpp.in">
+          <Option virtualFolder="CMake Files\cmake\templates\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/cmake/templates/opencv-XXX.pc.in">
+          <Option virtualFolder="CMake Files\cmake\templates\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/cmake/templates/OpenCVConfig.cmake.in">
+          <Option virtualFolder="CMake Files\cmake\templates\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/cmake/templates/OpenCVConfig-version.cmake.in">
+          <Option virtualFolder="CMake Files\cmake\templates\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/cmake/templates/OpenCVConfig.cmake.in">
+          <Option virtualFolder="CMake Files\cmake\templates\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/cmake/templates/OpenCVConfig-version.cmake.in">
+          <Option virtualFolder="CMake Files\cmake\templates\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/cmake/templates/OpenCVConfig.cmake.in">
+          <Option virtualFolder="CMake Files\cmake\templates\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/cmake/templates/OpenCVConfig-version.cmake.in">
+          <Option virtualFolder="CMake Files\cmake\templates\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/core/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\core\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/core/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\core\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/core/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\core\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/core/include/opencv2/core/version.hpp">
+          <Option virtualFolder="CMake Files\modules\core\include\opencv2\core\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/androidcamera/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\androidcamera\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/calib3d/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\calib3d\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/calib3d/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\calib3d\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/calib3d/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\calib3d\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/contrib/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\contrib\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/contrib/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\contrib\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/contrib/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\contrib\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/dynamicuda/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\dynamicuda\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/features2d/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\features2d\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/features2d/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\features2d\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/features2d/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\features2d\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/flann/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\flann\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/flann/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\flann\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/flann/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\flann\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/gpu/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\gpu\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/gpu/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\gpu\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/gpu/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\gpu\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/highgui/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\highgui\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/highgui/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\highgui\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/highgui/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\highgui\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/imgproc/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\imgproc\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/imgproc/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\imgproc\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/imgproc/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\imgproc\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/java/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\java\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/legacy/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\legacy\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/legacy/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\legacy\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/legacy/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\legacy\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/ml/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\ml\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/ml/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\ml\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/ml/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\ml\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/nonfree/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\nonfree\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/nonfree/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\nonfree\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/nonfree/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\nonfree\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/objdetect/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\objdetect\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/objdetect/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\objdetect\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/objdetect/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\objdetect\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/ocl/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\ocl\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/ocl/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\ocl\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/ocl/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\ocl\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/photo/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\photo\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/photo/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\photo\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/photo/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\photo\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/python/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\python\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/stitching/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\stitching\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/stitching/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\stitching\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/stitching/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\stitching\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/superres/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\superres\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/superres/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\superres\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/superres/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\superres\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/ts/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\ts\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/ts/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\ts\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/ts/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\ts\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/video/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\video\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/video/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\video\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/video/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\video\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/videostab/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\videostab\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/videostab/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\videostab\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/videostab/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\videostab\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/viz/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\viz\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/modules/world/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\modules\world\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/3rdparty/ffmpeg/ffmpeg_version.cmake">
+          <Option virtualFolder="CMake Files\3rdparty\ffmpeg\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/3rdparty/zlib/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\3rdparty\zlib\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/3rdparty/zlib/zconf.h.cmakein">
+          <Option virtualFolder="CMake Files\3rdparty\zlib\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/3rdparty/zlib/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\3rdparty\zlib\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/3rdparty/zlib/zconf.h.cmakein">
+          <Option virtualFolder="CMake Files\3rdparty\zlib\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/3rdparty/libtiff/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\3rdparty\libtiff\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/3rdparty/libtiff/tif_config.h.cmakein">
+          <Option virtualFolder="CMake Files\3rdparty\libtiff\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/3rdparty/libtiff/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\3rdparty\libtiff\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/3rdparty/libtiff/tif_config.h.cmakein">
+          <Option virtualFolder="CMake Files\3rdparty\libtiff\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/3rdparty/libjpeg/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\3rdparty\libjpeg\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/3rdparty/libjpeg/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\3rdparty\libjpeg\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/3rdparty/libjasper/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\3rdparty\libjasper\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/3rdparty/libjasper/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\3rdparty\libjasper\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/3rdparty/libpng/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\3rdparty\libpng\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/3rdparty/libpng/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\3rdparty\libpng\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/3rdparty/openexr/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\3rdparty\openexr\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/3rdparty/openexr/IlmBaseConfig.h.cmakein">
+          <Option virtualFolder="CMake Files\3rdparty\openexr\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/3rdparty/openexr/OpenEXRConfig.h.cmakein">
+          <Option virtualFolder="CMake Files\3rdparty\openexr\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/3rdparty/openexr/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\3rdparty\openexr\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/3rdparty/openexr/IlmBaseConfig.h.cmakein">
+          <Option virtualFolder="CMake Files\3rdparty\openexr\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/3rdparty/openexr/OpenEXRConfig.h.cmakein">
+          <Option virtualFolder="CMake Files\3rdparty\openexr\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/include/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\include\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/doc/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\doc\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/data/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\data\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/apps/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\apps\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/apps/haartraining/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\apps\haartraining\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/apps/haartraining/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\apps\haartraining\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/apps/traincascade/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\apps\traincascade\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/apps/traincascade/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\apps\traincascade\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/samples/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\samples\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/samples/c/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\samples\c\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/samples/c/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\samples\c\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/samples/cpp/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\samples\cpp\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/samples/cpp/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\samples\cpp\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/samples/gpu/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\samples\gpu\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/samples/gpu/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\samples\gpu\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/samples/gpu/performance/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\samples\gpu\performance\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/samples/gpu/performance/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\samples\gpu\performance\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/samples/ocl/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\samples\ocl\" />
+      </Unit>
+      <Unit filename="C:/opencv/sources/samples/ocl/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\samples\ocl\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

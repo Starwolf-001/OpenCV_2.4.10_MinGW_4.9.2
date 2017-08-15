@@ -1,0 +1,91 @@
+Determining if the system is big endian passed with the following output:
+Change Dir: C:/opencv-install/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW-64/mingw64/bin/mingw32-make.exe" "cmTC_91811/fast"
+C:/MinGW-64/mingw64/bin/mingw32-make.exe -f CMakeFiles\cmTC_91811.dir\build.make CMakeFiles/cmTC_91811.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/opencv-install/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_91811.dir/TestEndianess.c.obj
+C:\MinGW-64\mingw64\bin\x86_64-w64-mingw32-gcc.exe    -fsigned-char -mstackrealign -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -msse -msse2 -ffunction-sections  -O3 -DNDEBUG   -o CMakeFiles\cmTC_91811.dir\TestEndianess.c.obj   -c C:\opencv-install\CMakeFiles\CMakeTmp\TestEndianess.c
+Linking C executable cmTC_91811.exe
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_91811.dir\link.txt --verbose=1
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_91811.dir/objects.a
+C:\MinGW-64\mingw64\bin\ar.exe cr CMakeFiles\cmTC_91811.dir/objects.a @CMakeFiles\cmTC_91811.dir\objects1.rsp
+C:\MinGW-64\mingw64\bin\x86_64-w64-mingw32-gcc.exe     -fsigned-char -mstackrealign -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -msse -msse2 -ffunction-sections  -O3 -DNDEBUG    -Wl,--whole-archive CMakeFiles\cmTC_91811.dir/objects.a -Wl,--no-whole-archive  -o cmTC_91811.exe -Wl,--out-implib,libcmTC_91811.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_91811.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/opencv-install/CMakeFiles/CMakeTmp'
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function jbg_newlen exists failed with the following output:
+Change Dir: C:/opencv-install/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW-64/mingw64/bin/mingw32-make.exe" "cmTC_3174d/fast"
+C:/MinGW-64/mingw64/bin/mingw32-make.exe -f CMakeFiles\cmTC_3174d.dir\build.make CMakeFiles/cmTC_3174d.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/opencv-install/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3174d.dir/CheckFunctionExists.c.obj
+C:\MinGW-64\mingw64\bin\x86_64-w64-mingw32-gcc.exe    -fsigned-char -mstackrealign -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -msse -msse2 -ffunction-sections -DCHECK_FUNCTION_EXISTS=jbg_newlen -O3 -DNDEBUG   -o CMakeFiles\cmTC_3174d.dir\CheckFunctionExists.c.obj   -c "C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c"
+C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c:6:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+ char CHECK_FUNCTION_EXISTS();
+ ^
+Linking C executable cmTC_3174d.exe
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_3174d.dir\link.txt --verbose=1
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_3174d.dir/objects.a
+C:\MinGW-64\mingw64\bin\ar.exe cr CMakeFiles\cmTC_3174d.dir/objects.a @CMakeFiles\cmTC_3174d.dir\objects1.rsp
+C:\MinGW-64\mingw64\bin\x86_64-w64-mingw32-gcc.exe     -fsigned-char -mstackrealign -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -msse -msse2 -ffunction-sections -DCHECK_FUNCTION_EXISTS=jbg_newlen -O3 -DNDEBUG    -Wl,--whole-archive CMakeFiles\cmTC_3174d.dir/objects.a -Wl,--no-whole-archive  -o cmTC_3174d.exe -Wl,--out-implib,libcmTC_3174d.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_3174d.dir\linklibs.rsp
+CMakeFiles\cmTC_3174d.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text.startup.main+0x11): undefined reference to `jbg_newlen'
+collect2.exe: error: ld returned 1 exit status
+CMakeFiles\cmTC_3174d.dir\build.make:98: recipe for target 'cmTC_3174d.exe' failed
+mingw32-make.exe[1]: *** [cmTC_3174d.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/opencv-install/CMakeFiles/CMakeTmp'
+makefile:125: recipe for target 'cmTC_3174d/fast' failed
+mingw32-make.exe: *** [cmTC_3174d/fast] Error 2
+
+
+Determining if the function mmap exists failed with the following output:
+Change Dir: C:/opencv-install/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW-64/mingw64/bin/mingw32-make.exe" "cmTC_3dc19/fast"
+C:/MinGW-64/mingw64/bin/mingw32-make.exe -f CMakeFiles\cmTC_3dc19.dir\build.make CMakeFiles/cmTC_3dc19.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/opencv-install/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3dc19.dir/CheckFunctionExists.c.obj
+C:\MinGW-64\mingw64\bin\x86_64-w64-mingw32-gcc.exe    -fsigned-char -mstackrealign -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -msse -msse2 -ffunction-sections -DCHECK_FUNCTION_EXISTS=mmap -O3 -DNDEBUG   -o CMakeFiles\cmTC_3dc19.dir\CheckFunctionExists.c.obj   -c "C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c"
+C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c:6:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+ char CHECK_FUNCTION_EXISTS();
+ ^
+Linking C executable cmTC_3dc19.exe
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_3dc19.dir\link.txt --verbose=1
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_3dc19.dir/objects.a
+C:\MinGW-64\mingw64\bin\ar.exe cr CMakeFiles\cmTC_3dc19.dir/objects.a @CMakeFiles\cmTC_3dc19.dir\objects1.rsp
+C:\MinGW-64\mingw64\bin\x86_64-w64-mingw32-gcc.exe     -fsigned-char -mstackrealign -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -msse -msse2 -ffunction-sections -DCHECK_FUNCTION_EXISTS=mmap -O3 -DNDEBUG    -Wl,--whole-archive CMakeFiles\cmTC_3dc19.dir/objects.a -Wl,--no-whole-archive  -o cmTC_3dc19.exe -Wl,--out-implib,libcmTC_3dc19.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_3dc19.dir\linklibs.rsp
+CMakeFiles\cmTC_3dc19.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text.startup.main+0x11): undefined reference to `mmap'
+collect2.exe: error: ld returned 1 exit status
+CMakeFiles\cmTC_3dc19.dir\build.make:98: recipe for target 'cmTC_3dc19.exe' failed
+mingw32-make.exe[1]: *** [cmTC_3dc19.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/opencv-install/CMakeFiles/CMakeTmp'
+makefile:125: recipe for target 'cmTC_3dc19/fast' failed
+mingw32-make.exe: *** [cmTC_3dc19/fast] Error 2
+
+

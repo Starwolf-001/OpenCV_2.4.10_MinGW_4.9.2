@@ -1,0 +1,2 @@
+C:\MinGW-64\mingw64\bin\ar.exe qc ..\..\lib\libopencv_perf_stitching_pch_dephelp.a  CMakeFiles/opencv_perf_stitching_pch_dephelp.dir/opencv_perf_stitching_pch_dephelp.cxx.obj
+C:\MinGW-64\mingw64\bin\ranlib.exe ..\..\lib\libopencv_perf_stitching_pch_dephelp.a

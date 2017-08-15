@@ -1,0 +1,2 @@
+C:\MinGW-64\mingw64\bin\ar.exe qc ..\..\lib\libopencv_gpu_pch_dephelp.a  CMakeFiles/opencv_gpu_pch_dephelp.dir/opencv_gpu_pch_dephelp.cxx.obj
+C:\MinGW-64\mingw64\bin\ranlib.exe ..\..\lib\libopencv_gpu_pch_dephelp.a
